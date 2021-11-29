@@ -103,7 +103,7 @@ export default function User() {
 
     <div className="flex flex-row h-full">
 
-      <nav className="bg-gray-100 border-2 border-gray-300 w-20  justify-between flex flex-col ">
+      <nav className="bg-gray-100 border-2 border-gray-300 w-20  justify-between flex flex-col invisible  md:visible ">
         <div className="mt-10 mb-10">
           <a href="#">
             <img
@@ -137,7 +137,7 @@ export default function User() {
       <div className="md:px-16 py-4 text-gray-700 bg-gray-200  w-screen">
 
         {/* SHOW ALL THE POST */}
-        <div clasName="flex justify-center visible md:invisible">
+        <div clasName="flex justify-center ">
         <div className="w-full mb-8 visible md:invisible" onClick={logoutHandler}>
                 <spam >
                   <img className="fill-current h-5 w-5 text-gray-300 mx-auto hover:text-green-500" src={Logoutimg} alt="" />
@@ -154,7 +154,7 @@ export default function User() {
               </div>
         </div>
         
-        <div class="p-8 flex flex-wrap justify-center gap-4 ">
+        <div id="welcomeid" class="p-8 flex flex-wrap justify-center gap-4 ">
           <div className="text-xl mb-8 underline font-bold md:text-4xl">Welcome to JINBook</div>
           <div className="w-full flex justify-center  items-center gap-16  flex-wrap">
             {
@@ -182,10 +182,12 @@ export default function User() {
 
 
         <div className=" w-full">
+          <a href="#welcomeid">
           <div className="w-full px-16 flex justify-between">
             <ButtonBack onClick={() => { handlerButton("back", "user") }} />
             <ButtonNext onClick={() => { handlerButton("next", "user") }} />
           </div>
+          </a>
         </div>
 
         <div className="p-8 my-8 flex flex-wrap justify-center gap-8 ">

@@ -87,7 +87,7 @@ export default function Admin() {
                     title: 'Good job!',
                     text: '¡El post fue agregado con éxito!',
                 });
-                window.location.reload();
+                getAdminData()
                 console.log(posted);
             })
             .catch((err) => {
@@ -145,7 +145,7 @@ export default function Admin() {
 
     return (
         <div className="flex flex-row h-full">
-            <nav className="bg-gray-100 border-2 border-gray-300 w-20  justify-between flex flex-col ">
+            <nav className="bg-gray-100 border-2 border-gray-300 w-20  justify-between flex flex-col invisible  md:visible ">
                 <div className="mt-10 mb-10">
                     <a href="#">
                         <img
@@ -166,6 +166,7 @@ export default function Admin() {
                                     <img className="fill-current h-5 w-5 text-gray-300 mx-auto hover:text-green-500" src={Logoutimg} alt="" />
                                 </spam>
                             </li>
+
                         </ul>
                     </div>
                 </div>
