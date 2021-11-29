@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/JINBook/static/css/main.b91fb80a.chunk.css",
+    "main.js": "/JINBook/static/js/main.f18a0d50.chunk.js",
+    "main.js.map": "/JINBook/static/js/main.f18a0d50.chunk.js.map",
+    "runtime-main.js": "/JINBook/static/js/runtime-main.f4d8c48b.js",
+    "runtime-main.js.map": "/JINBook/static/js/runtime-main.f4d8c48b.js.map",
+    "static/js/2.f2dcd7ef.chunk.js": "/JINBook/static/js/2.f2dcd7ef.chunk.js",
+    "static/js/2.f2dcd7ef.chunk.js.map": "/JINBook/static/js/2.f2dcd7ef.chunk.js.map",
+    "static/js/3.76126ac3.chunk.js": "/JINBook/static/js/3.76126ac3.chunk.js",
+    "static/js/3.76126ac3.chunk.js.map": "/JINBook/static/js/3.76126ac3.chunk.js.map",
+    "index.html": "/JINBook/index.html",
+    "precache-manifest.3531f2f8deddb82f16d1df7c7709675a.js": "/JINBook/precache-manifest.3531f2f8deddb82f16d1df7c7709675a.js",
+    "service-worker.js": "/JINBook/service-worker.js",
+    "static/css/main.b91fb80a.chunk.css.map": "/JINBook/static/css/main.b91fb80a.chunk.css.map",
+    "static/js/2.f2dcd7ef.chunk.js.LICENSE.txt": "/JINBook/static/js/2.f2dcd7ef.chunk.js.LICENSE.txt",
+    "static/media/programmer.png": "/JINBook/static/media/programmer.49c53331.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4d8c48b.js",
+    "static/js/2.f2dcd7ef.chunk.js",
+    "static/css/main.b91fb80a.chunk.css",
+    "static/js/main.f18a0d50.chunk.js"
+  ]
+}
