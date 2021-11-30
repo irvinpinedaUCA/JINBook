@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1adacd316fd2c217fb5c4c4c9628749f",
+    "revision": "1a05056b02fcdd33da7e0c350aeec551",
     "url": "/JINBook/index.html"
   },
   {
-    "revision": "ac22beffc1a18451580b",
+    "revision": "9319b5b372b6486221bc",
     "url": "/JINBook/static/css/main.b91fb80a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JINBook/static/js/3.76126ac3.chunk.js"
   },
   {
-    "revision": "ac22beffc1a18451580b",
-    "url": "/JINBook/static/js/main.f18a0d50.chunk.js"
+    "revision": "9319b5b372b6486221bc",
+    "url": "/JINBook/static/js/main.ca77cb34.chunk.js"
   },
   {
     "revision": "652ab151aa477558a46c",
